@@ -1,0 +1,33 @@
+/* padding box-sizing fix*/
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+table,
+td {
+  border: thin solid black;
+}
+td {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+td:hover {
+  background: #ffd;
+}
